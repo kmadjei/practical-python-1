@@ -4,10 +4,13 @@ import json
 from flask import Flask, render_template, request
 from random import random
 import math
+if os.path.exists("env.py"):
+    import env
 
 
 # Init App
 app = Flask(__name__)
+app.secret_key = os.environ.get("SECRET_KEY")
 
 # renders the home page
 @app.route('/')
@@ -41,6 +44,7 @@ def get_inspired():
     return render_template('quotes.html', msg1=msg1, quote=data[random_quote])
 
 
-# Run server
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(host=os.environ.get("IP"),
+            port=int(os.environ.get("PORT")),
+            debug=True)

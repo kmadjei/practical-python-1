@@ -1,3 +1,4 @@
 myVenv/
 notes.txt
 __pycache__/
+env.py
