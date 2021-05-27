@@ -44,7 +44,6 @@ def get_inspired():
     return render_template('quotes.html', msg1=msg1, quote=data[random_quote])
 
 
-if __name__ == "__main__":
-    app.run(host=os.environ.get("IP"),
-            port=int(os.environ.get("PORT")),
-            debug=True)
+# Run server
+if __name__ == '__main__':
+    app.run(debug=True)
