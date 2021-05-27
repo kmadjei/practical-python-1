@@ -6,7 +6,7 @@ This project demonstrates the use of creating a web application with Flask, a Py
 
 In this web application, I explore the form submission and the jinja template engine functionalities in the Flask framework to quickly build web applications.
 
-👉 (Quick Preview)[https://practical-python-1.herokuapp.com/]
+👉 [Quick Preview](https://practical-python-1.herokuapp.com/)
  
 ## Technologies Used
 
