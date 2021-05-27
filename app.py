@@ -1,11 +1,8 @@
 # modules required to run the app
-import os
 import json
 from flask import Flask, render_template, request
 from random import random
 import math
-if os.path.exists("env.py"):
-    import env
 
 
 # Init App
