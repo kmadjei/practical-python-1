@@ -11,7 +11,7 @@ In this web application, I explore the form submission and the jinja template en
 ## Technologies Used
 
 - [Shop Homepage](https://startbootstrap.com/template/shop-homepage)
-    - The application uses **Shop Homepage** Bootstrap template from (Start Bootstrap)[https://startbootstrap.com/] to build the front end.
+    - The application uses **Shop Homepage** Bootstrap template from [Start Bootstrap](https://startbootstrap.com/) to build the front end.
 
 - [Flask](https://flask.palletsprojects.com/en/2.0.x/quickstart/)
     - The project uses **Flask** framework to quickly build a web application with Python.
