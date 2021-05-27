@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="container py-4">
+  <div class="col-sm-8 px-4 my-4 mx-auto">
+    <p class="text-success text-center" style="font-style: italic; font-size: 25px; font-weight: bold;">{{ quote.text }}</p>
+    {% if quote.author %}
+      <p class="text-success text-center font-weight-bold" style="font-style: italic; font-size: 25px; font-weight: bold;">- {{ quote.author }}</p>
+    {% endif %}
+  </div>
+</section>
+        
+{% endblock %}
