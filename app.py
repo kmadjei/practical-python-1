@@ -36,7 +36,7 @@ def get_inspired():
         #generate random number for dict length
         random_quote = math.floor(random()*len(data))
 
-    msg1 = "Your Inspiration for Today !"
+    msg1 = "Your Inspiration For Today !"
         
     return render_template('quotes.html', msg1=msg1, quote=data[random_quote])
 
